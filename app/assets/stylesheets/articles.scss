@@ -1,0 +1,26 @@
+// Place all the styles related to the article controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: #d1f4fa;
+  transition: all 0.3s ease;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #005792 ;
+  font-style: italic;
+}
+
+.container {
+  width: 970px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.article-view {
+  overflow: hidden;
+  height: 40px;
+}

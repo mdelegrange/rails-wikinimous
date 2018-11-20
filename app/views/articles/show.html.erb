@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <h1><%= @article.title %>
+      <small>
+        <%= link_to edit_article_path do %>
+          <i class="far fa-edit"></i>
+        <% end %>
+        <%= link_to article_path(@article), method: :delete, data: { confirm: "Are you sure?" }  do %>
+          <i class="fa fa-eraser"></i>
+        <% end %>
+      </small>
+      </h1>
+      <p><%= @article.content %></p>
+    </div>
+  </div>
+</div>
